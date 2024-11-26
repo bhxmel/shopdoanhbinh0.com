@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+<body>
+    <div class="baner">
+        <p class="name">LAPTOP DOANH BÌNH</p>
+        <p class="hotline">HOTLINE: 098XXXX432 - Địa chỉ: Tổ 8, Ngõ 1A, Huyền Kỳ, Phú Lãm, Hà Đông, Hà Nội</p>
+    </div>
+    
+    <div class="header">
+        <div class="logo">
+                <img src="anh.jpg" >
+        </div>
+        <ul class="center-header">
+            <li><input class="searach" type="text" placeholder="searach..."></li> 
+        </ul>
+        <button class="login-btn"><a href="dangnhap.html">Đăng Nhập</a></button>
+    </div>
+    
+    <div class="menu">
+        <ul class="submenu">
+            <li><a href="index.html">Trang Chủ</a></li>
+            
+            <li><a href="#">Giới Thiệu</a>
+            <ul class="submenu-con">
+                <li><a href="lichsu.html">Lịch sử phát triển</a></li>
+                <li><a href="sumenh.html">Sứ mệnh</a></li>
+            </ul>
+            </li>
+    
+            <li><a href="">Sản Phẩm </a>
+            <ul class="submenu-con">
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Pc, máy tính để bàn</a></li>
+                <li><a href="#">Camera an ninh</a></li>
+                <li><a href="#">Thiết bị mạng</a></li>
+                <li><a href="#">Laptop cũ</a></li>
+            </ul>
+            </li>
+    
+            <li><a href="#">Khuyến Mãi</a>
+            <ul class="submenu-con">
+                <li><a href="">Laptop</a></li>
+                <li><a href="">Pc</a></li>
+            </ul>
+            </li>
+    
+            <li><a href="">Giỏ Hàng</a></li>
+    
+            <li><a href="">Liên Hệ</a></li>
+    
+        </ul>
+    </div>
+    <main>
+    <div class="login-container">
+        <h1>Đăng nhập</h1>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+            </div>
+            <button type="submit" class="login-btn">Đăng nhập</button>
+            <p class="register-link">Chưa có tài khoản? <a href="#">Đăng ký</a></p>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; https://shopLAPTOPDOANHBINH.com</p>
+    </footer>
+</body>
+</html>
